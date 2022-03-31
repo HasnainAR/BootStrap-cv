@@ -1,0 +1,175 @@
+.top{
+    /* background: linear-gradient(to right,darkgoldenrod 5%,cornflowerblue 50%); */
+    background: linear-gradient(to right, darkgoldenrod 0%, darkgoldenrod 10%,cornflowerblue 10%,cornflowerblue 100%);
+}
+.image{
+    max-width:100px;
+    border-radius: 100%;
+    border: solid 3px white;
+}
+.name{
+    padding-left: 10%;
+    padding-top:3%;
+    padding-bottom: 3%;
+    color: white;
+}
+
+.ullist{
+    list-style:none;
+    color:lightgreen;
+    font-weight: bold;
+    font-size: larger;
+    padding-left: 40%;
+    padding-top: 5%;
+}
+.ullist1{
+    list-style:none;
+    color:#F4DF4EFF;
+    font-size:xx-large;
+    padding-top: 3%;
+    font-weight: bolder;
+
+}
+.ullist2,.ullist3{
+    list-style:none;
+    color:#F4DF4EFF;
+    font-size:xx-large;
+    padding-top: 5%;
+    font-weight: bolder;
+    
+ 
+
+}
+.ullist21,.ullist31{
+    list-style:disc;
+    color:#F4DF4EFF;
+    padding-left: 17%;
+    padding-top: 3%;
+
+ 
+
+}
+h4,h5{
+    padding-left:17%;
+}
+p{
+    color:#F4DF4EFF;
+    font-size:medium;
+    font-weight: normal;
+
+}
+
+a:link{
+    color:lightgreen;
+    text-decoration: none;
+    
+    
+    
+  }
+  a:visited
+  {
+      color:lightgreen;
+      text-decoration: none;
+  }
+  a:hover
+{
+    color:lightgreen !important;
+    text-decoration: none !important;
+}
+
+
+.skills li{
+    margin:20px 0;
+}
+.skills h4{
+    padding-left:0%;
+}
+.bar{
+    background:  #353b48;
+    display:block;
+    height: 2px;
+    width:300px;
+    border:1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    box-shadow: 0 0 10px lightgreen;
+}
+.bar span{
+    height:2px;
+    float: left;
+    background:#F4DF4EFF;
+}
+.html{
+    width:90%;
+    animation:html 2s;
+}
+.CSS{
+    width:70%;
+    animation:CSS 2s;
+}
+.JavaScript{
+    width: 65%;
+    animation:JavaScript 2s;
+}
+.Jquery{
+    width: 85%;
+    animation:Jquery 2s;
+}
+@keyframes html{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+@keyframes CSS{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:70%;
+    }
+}
+@keyframes JavaScript{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:65%;
+    }
+}
+@keyframes Jquery{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:85%;
+    }
+}
+
+
+  
+/* @media (min-width: 300px) {  
+    h4{font-size:1rem !important;
+        
+    } 
+} */
+ @media (min-width: 300px) {  
+    .ullist{ padding-left: 13%;
+        
+    } 
+} 
+@media (min-width: 500px) {  
+    .ullist{ padding-left: 40%;
+        
+    } 
+} 
+
+
+
+    @media (min-width: 768px) {  
+        h4 {font-size:1.5rem !important;
+        } /*1rem = 16px*/
+      }
+  
+  
